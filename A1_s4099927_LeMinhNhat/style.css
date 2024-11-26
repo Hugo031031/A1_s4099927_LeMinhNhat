@@ -80,8 +80,10 @@ img {
 }
 
 #house {
-    margin-top: 73%;
+    margin-top: 70%;
+    z-index: 0;
 }
+
 
 #smoke {
     margin-top: 73%;
