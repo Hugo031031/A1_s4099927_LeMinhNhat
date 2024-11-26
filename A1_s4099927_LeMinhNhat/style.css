@@ -16,7 +16,7 @@ img {
 }
 .music{
     z-index: 100;
-    position: sticky;
+    position: fixed;
     top: 2%;
     margin-left: 1%;
       
