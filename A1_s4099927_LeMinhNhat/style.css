@@ -1,0 +1,764 @@
+body {
+    background-color: rgb(11, 10, 58);
+    margin: auto;
+    margin-top: -05% !important;
+    padding: 0;
+}
+
+img {
+    width: 100vw;
+    display: block;
+}
+
+.asset {
+    position: absolute;
+    z-index: 2;
+}
+.music{
+    z-index: 100;
+    position: sticky;
+    top: 2%;
+    margin-left: 1%;
+      
+    }
+
+
+#light {
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    margin-top: -6%;
+    animation-name: lightblink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#theglobe {
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+    margin-top: -6%;
+}
+
+.title {
+    position: absolute;
+    color: white;
+    font-size: 10vw;
+    left: 62%;
+    margin-top: 25%;
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#author {
+    position: absolute;
+    color: white;
+    font-size: 2.5vw;
+    left: 60.5%;
+    margin-top: 36%;
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title2 {
+    position: absolute;
+    color: rgb(217, 54, 114);
+    z-index: 10;
+    font-size: 7vw;
+    left: 42%;
+    margin-top: 65%;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    animation-name: lover;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+#house {
+    margin-top: 73%;
+}
+
+#smoke {
+    margin-top: 73%;
+    animation-name: smoke;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+.poem {
+    position: absolute;
+    color: white;
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.poem2 {
+    position: absolute;
+    color: white;
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.6vw;
+    z-index: 100;
+}
+
+#transition1 {
+    position: relative;
+    z-index: 0;
+}
+
+#canigo {
+    position: absolute;
+    margin-top: 31%;
+    left: 62%;
+    font-size: 1.6vw;
+}
+
+#canwealways {
+    position: absolute;
+    margin-top: 40%;
+    left: 55%;
+    font-size: 1.6vw;
+}
+
+#takemeout {
+    position: absolute;
+    margin-top: 49%;
+    left: 33%;
+    font-size: 1.6vw;
+}
+
+#youremy {
+    position: absolute;
+    margin-top: 58%;
+    left: 50%;
+    font-size: 1.6vw;
+}
+
+#poem1 {
+    font-size: 1.6vw;
+    left: 10%;
+    margin-top: 100%;
+    line-height: 250%;
+}
+
+#transition1 {
+    position: relative;
+    margin-top: -25%;
+}
+
+#cat {
+    position: relative;
+    margin-top: -55%;
+}
+
+
+
+#tree {
+    z-index: 11;
+    position: absolute;
+    margin-top: 32%;
+
+}
+
+#paws {
+    z-index: 11;
+    position: absolute;
+    margin-top: 32.5%;
+    animation-name: paws;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+#star {
+    position: absolute;
+    z-index: 3;
+    animation: star 0.8s ease-in infinite;
+}
+
+#christmas {
+
+    background: linear-gradient(to right, #e16344, #77ff7e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 5px rgba(252, 255, 219, 0.3), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.3), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 25px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.3), 0 0 35px rgba(255, 255, 255, 0.3);
+}
+
+#guitarbackground {
+    margin-top: -20px;
+
+    position: relative;
+}
+
+cat {
+    z-index: 0;
+}
+
+#guitar {
+
+    z-index: 2;
+    position: absolute;
+}
+
+#noteup {
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    animation-name: noteup;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+
+}
+
+#notedown {
+    z-index: 1;
+    opacity: 0;
+    position: absolute;
+    animation-name: notedown;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+}
+
+#guitarbackground {
+    position: relative;
+}
+
+#heartleft {
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+    margin-top: 47%;
+opacity: 0;
+    width: 6vw;
+    transform: rotate(-15deg);
+    animation-name: heartleft;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+
+}
+
+#heartright {
+    position: absolute;
+    z-index: 1;
+    left: 46.5%;
+    margin-top: 47%;
+    opacity: 0;
+    width: 6vw;
+    transform: rotate(15deg) scaleX(-1);
+    animation-name: heartright;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-timeline: view();
+
+}
+#snowman{
+    position: absolute;
+    margin-top: 10%;
+
+}
+
+#ladyngentlemen {
+    color: #14826d;
+    position: absolute;
+    margin-top: 19%;
+    left: 17%;
+    font-size: 1.6vw;
+    z-index: 100;
+    animation-name: noteup;
+    animation-duration: 6s;
+    animation-timeline: view();
+    animation-play-state: foward;
+    animation-range: 0;
+    padding-bottom: 16%;
+}
+
+#magneticforce {
+    color: #14826d;
+    position: absolute;
+    margin-top: 38%;
+    left: 25%;
+    font-size: 1.6vw;
+    z-index: 100;
+    animation-name: noteup;
+    animation-duration: 6s;
+    animation-timeline: view();
+    animation-play-state: foward;
+    animation-range: 0;
+    padding-bottom: 10%;
+
+
+}
+
+#title3 {
+    position: absolute;
+    color: #b3172f;
+    z-index: 10;
+    font-size: 14vw;
+    left: 16%;
+    margin-top: 41%;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    animation-name: lover2;
+    animation-duration: 6s;
+    animation-timeline: view();
+    animation-play-state: foward;
+    animation-range: 0;
+    padding-bottom: 10%;
+
+}
+
+#lefthand2 {
+    width: 10vw;
+    transform: rotate(25deg);
+    animation-name: lefthand2;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+
+#righthand2 {
+    width: 10vw;
+    transform: rotate(-80deg);
+    animation-name: righthand2;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#lefthand1 {
+    width: 10vw;
+    transform: rotate(25deg);
+    animation-name: lefthand1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+
+#righthand1 {
+    width: 10vw;
+    transform: rotate(-80deg);
+    animation-name: righthand1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#hearticon1 {
+    width: 4vw;
+    margin-top: 20%;
+    left: 3%;
+    animation-name: heart;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#hearticon2 {
+    width: 3vw;
+    margin-top: 35%;
+    left: 15%;
+    animation-name: heart;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#hearticon3 {
+    width: 3vw;
+    margin-top: 20%;
+    left: 60%;
+    animation-name: heart;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#hearticon4 {
+    width: 2vw;
+    margin-top: 24%;
+    left: 85%;
+    animation-name: heart;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#hearticon5 {
+    width: 4vw;
+    margin-top: 65%;
+    left: 50%;
+    animation-name: heart;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#hearticon6 {
+    width: 2vw;
+    margin-top: 70%;
+    left: 90%;
+    animation-delay: 1s;
+    animation-name: heart;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#hearticon7 {
+    width: 2vw;
+    margin-top: 50%;
+    left: 95%;
+    animation-name: heart;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#snowmanbackground {
+    position: relative;
+    margin-top: -10%;
+    z-index: 1
+}
+
+#poem4{font-size: 1.6vw;
+    z-index: 4;
+    position: absolute;
+    margin-top: 35%;
+    left: 54%;
+    color: darkblue;
+    line-height: 250%;}
+
+.pink {
+    color: #fe60d5;
+}
+
+@keyframes heart {
+    0% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.6);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(0.8);
+
+        opacity: 1;
+    }
+}
+
+
+@keyframes lightblink {
+    0% {
+        opacity: 0.2;
+
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+@keyframes lover {
+    0% {
+        color: rgb(21, 74, 173);
+        transform: scale(1);
+    }
+
+    50% {
+        color: rgb(217, 54, 114);
+        transform: scale(1.2);
+    }
+
+    100% {
+        color: rgb(21, 74, 173);
+    }
+}
+
+@keyframes star {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    50% {
+        clip-path: inset(0 0 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 0 0 100%);
+    }
+}
+
+@keyframes smoke {
+    0% {
+        clip-path: inset(100% 0 0 0);
+        opacity: 0;
+    }
+
+    50% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+
+    100% {
+        clip-path: inset(0 0 100% 0);
+        opacity: 0;
+    }
+}
+
+@keyframes paws {
+    0% {
+        clip-path: inset(100% 0 0 0);
+    }
+
+    80% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+
+    }
+}
+
+@keyframes noteup {
+    0% {
+        clip-path: inset(0 100% 0 0);
+        opacity: 1;
+    }
+
+
+    60% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes notedown {
+    0% {
+        clip-path: inset(0 100% 0 0);
+        opacity: 1;
+    }
+
+    25% {
+        clip-path: inset(0 100% 0 0);
+        opacity: 1;
+    }
+
+    70% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+
+    100% {
+        clip-path: inset(0 0 0 0%);
+        opacity: 1;
+    }
+}
+
+@keyframes lover2 {
+    0% {
+        color: #cbc1ff;
+        scale: 0.5;
+
+
+    }
+
+    30% {
+        color: #bbd2ff;
+        SCALE: 1.2;
+
+
+
+    }
+
+    50% {
+        color: #b3172f;
+        scale: 1;
+    }
+
+    100% {
+        color: #b3172f;
+        opacity: 1;
+    }
+}
+
+@keyframes heartleft {
+    0% {
+        opacity: 0;
+        scale: 0;
+        left: 24%;
+        margin-top: 50%;
+        transform: rotate(-60deg);
+
+    }
+
+    50% {
+        left: 9%;
+        margin-top: 47%;
+        scale: 1;
+        opacity: 1;
+    }
+
+
+    100% {
+
+        opacity: 1;
+    }
+}
+
+@keyframes heartright {
+    0% {
+        opacity: 0;
+        scale: 0;
+        left: 34%;
+        margin-top: 50%;
+        transform: rotate(60deg) scaleX(-1);
+
+    }
+
+    50% {
+        left: 46.5%;
+        margin-top: 47%;
+        scale: 1;
+        opacity: 1;
+    }
+
+
+    100% {
+
+        opacity: 1;
+    }
+}
+
+@keyframes lefthand1 {
+    0% {
+        left: 16%;
+        margin-top: 46%;
+        transform: rotate(25deg);
+    }
+
+    50% {
+        left: 18.5%;
+        margin-top: 49%;
+        transform: rotate(70deg);
+
+    }
+
+    100% {
+        left: 16%;
+        margin-top: 46%;
+        transform: rotate(25deg);
+
+
+    }
+}
+
+@keyframes righthand1 {
+    0% {
+        left: 5%;
+        margin-top: 52%;
+        transform: rotate(-80deg);
+        ;
+    }
+
+    50% {
+        left: 6.5%;
+        margin-top: 57%;
+        transform: rotate(-140deg);
+        ;
+
+    }
+
+    100% {
+        left: 5%;
+        margin-top: 52%;
+        transform: rotate(-80deg);
+    }
+}
+
+@keyframes lefthand2 {
+    0% {
+        left: 38%;
+        margin-top: 34%;
+        transform: rotate(50deg);
+    }
+
+    50% {
+        left: 38%;
+        margin-top: 38%;
+        transform: rotate(120deg);
+
+    }
+
+    100% {
+        left: 38%;
+        margin-top: 34%;
+        transform: rotate(50deg);
+
+
+    }
+}
+
+@keyframes righthand2 {
+    0% {
+        left: 24%;
+        margin-top: 33%;
+        transform: rotate(-50deg);
+        ;
+    }
+
+
+
+    50% {
+        left: 24%;
+        margin-top: 37%;
+        transform: rotate(-120deg);
+        ;
+
+    }
+
+    100% {
+        left: 24%;
+        margin-top: 33%;
+        transform: rotate(-50deg);
+    }
+}
